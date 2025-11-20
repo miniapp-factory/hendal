@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
-export default function FarcasterMetrics(): JSX.Element {
+export default function FarcasterMetrics() {
   const [metrics, setMetrics] = useState<{ [key: string]: number }>({});
 
   useEffect(() => {
